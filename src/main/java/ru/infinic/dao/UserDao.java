@@ -5,7 +5,7 @@ import ru.infinic.model.User;
 import java.util.List;
 
 
-public interface UserDAO {
+public interface UserDao {
     void createUsersTable();
     void dropUsersTable();
     void createUser(User user);

@@ -8,7 +8,7 @@ import java.util.List;
 
 
 @Repository
-public class JpaUserDAOImpl implements UserDAO {
+public class JpaUserDaoImpl implements UserDao {
 
     @PersistenceContext
     private EntityManager entityManager;

@@ -2,7 +2,7 @@ package ru.infinic.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.infinic.dao.UserDAO;
+import ru.infinic.dao.UserDao;
 import ru.infinic.model.User;
 import javax.transaction.Transactional;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
     @Autowired
-    private UserDAO userDAO;
+    private UserDao userDAO;
 
     @Override
     @Transactional
